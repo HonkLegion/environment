@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Mallgroup;
+namespace Bckp;
 
 use function array_filter;
 use function array_map;

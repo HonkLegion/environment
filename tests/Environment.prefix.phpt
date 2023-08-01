@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-use Mallgroup\Environment;
+use Bckp\Environment;
 use Tester\Assert;
 
-use function Mallgroup\setenv;
+use function Bckp\setenv;
 
 require 'bootstrap.php';
 require 'getenv.php';

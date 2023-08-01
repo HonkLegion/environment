@@ -4,10 +4,10 @@ declare(strict_types=1);
 require 'bootstrap.php';
 require 'getenv.php';
 
-use Mallgroup\Environment;
+use Bckp\Environment;
 use Tester\Assert;
 
-use function Mallgroup\setenv;
+use function Bckp\setenv;
 
 setenv('BOOL-1', 'true');
 setenv('BOOL-2', '1');
