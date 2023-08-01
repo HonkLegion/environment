@@ -3,9 +3,9 @@
     "description": "Simple class for getting environment in proper type with fallback",
     "type": "library",
     "require-dev": {
-        "phpstan/phpstan": "^0.12.94",
-        "vimeo/psalm": "^4.9",
-        "nette/tester": "^2.4"
+        "phpstan/phpstan": "^1.0",
+        "vimeo/psalm": "^4.30",
+        "nette/tester": "^2.5"
     },
     "license": "MIT",
     "autoload": {
