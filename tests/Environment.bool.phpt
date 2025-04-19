@@ -4,10 +4,10 @@ declare(strict_types=1);
 require 'bootstrap.php';
 require 'getenv.php';
 
-use Bckp\Environment;
+use HonkLegion\Environment;
 use Tester\Assert;
 
-use function Bckp\setenv;
+use function HonkLegion\setenv;
 
 setenv('BOOL-1', 'true');
 setenv('BOOL-2', '1');

@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-use Bckp\Environment;
+use HonkLegion\Environment;
 use Tester\Assert;
 
-use function Bckp\setenv;
+use function HonkLegion\setenv;
 
 require 'bootstrap.php';
 require 'getenv.php';
