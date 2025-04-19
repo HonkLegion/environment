@@ -19,6 +19,37 @@ The best way to install `honk-legion/environment` is using [Composer](http://get
 $ composer require honk-legion/environment
 ```
 
+## Example
+
+imagine, you have set your ENV as follorws:
+
+```env
+FOO=false
+BAR=1
+KEYS=1|2|3
+```
+
+Lets see PHP code
+```php
+use HonkLegion\Environment;
+
+// Using getenv function:
+var_dump(getenv('FOO')); // string(false)
+
+// Using Environment function:
+var_dump(Environment::Bool('foo')); //bool(false)
+
+// But we can go even further:
+var_dump(Environment::Bool('BAR')); //bool(true)
+var_dump(Environment::Float('BAR')); //float(1.0)
+
+// What about multi-values?
+var_dump(Environment::array('KEYS', '|', Environment::String)); //array(3) [0 => '1', 1 => '2', 2 => '3']
+
+// Default values? No problem!
+var_dump(Environment::Bool('prod', true)); //bool(true) * even bin is not set
+```
+
 ## Development
 
 This package is currently maintaining by these authors.
