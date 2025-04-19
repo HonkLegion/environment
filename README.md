@@ -1,6 +1,6 @@
 ![](https://heatbadger.now.sh/github/readme/bckp/environment/)
 
-# bckp/environment
+# honk-legion/environment
 Easy class for getting ENV values with casting and default value fallback. Great for frameworks like Nette.
 
 [![Coverage Status](https://img.shields.io/coveralls/github/bckp/environment/master)](https://coveralls.io/github/bckp/environment?branch=master)
@@ -13,14 +13,14 @@ Easy class for getting ENV values with casting and default value fallback. Great
 Installation
 ------------
 
-The best way to install `bckp/environment` is using [Composer](http://getcomposer.org/):
+The best way to install `honk-legion/environment` is using [Composer](http://getcomposer.org/):
 
 ```sh
-$ composer require bckp/environment
+$ composer require honk-legion/environment
 ```
 
 ## Development
 
 This package is currently maintaining by these authors.
 
-<a href="https://github.com/bckp"><img width="80" height="80" src="https://avatars.githubusercontent.com/u/179652?v=4&s=80"></a>
+<a href="https://github.com/HonkLegion"><img width="80" height="80" src="https://avatars.githubusercontent.com/u/208159255?s=80&v=4"></a>
