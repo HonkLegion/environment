@@ -13,15 +13,15 @@ Easy class for getting ENV values with casting and default value fallback. Great
 Installation
 ------------
 
-The best way to install `honk-legion/environment` is using [Composer](http://getcomposer.org/):
+The best way to install `honklegion/environment` is using [Composer](http://getcomposer.org/):
 
 ```sh
-$ composer require honk-legion/environment
+$ composer require honklegion/environment
 ```
 
 ## Example
 
-imagine, you have set your ENV as follorws:
+imagine, you have set your ENV as follows:
 
 ```env
 FOO=false
@@ -30,6 +30,7 @@ KEYS=1|2|3
 ```
 
 Lets see PHP code
+
 ```php
 use HonkLegion\Environment;
 
@@ -44,7 +45,8 @@ var_dump(Environment::Bool('BAR')); //bool(true)
 var_dump(Environment::Float('BAR')); //float(1.0)
 
 // What about multi-values?
-var_dump(Environment::array('KEYS', '|', Environment::String)); //array(3) [0 => '1', 1 => '2', 2 => '3']
+var_dump(Environment::array('KEYS', '|', Environment::String)); //array(3) [0 => '1', 1 => '2', 2 => '3'] - notice we have strings
+var_dump(Environment::array('KEYS', '|', Environment::Int)); //array(3) [0 => 1, 1 => 2, 2 => 3] - notice we have int
 
 // Default values? No problem!
 var_dump(Environment::Bool('prod', true)); //bool(true) * even bin is not set
