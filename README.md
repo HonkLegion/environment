@@ -1,6 +1,4 @@
-![](https://heatbadger.now.sh/github/readme/honk-legion/environment/)
-
-# honk-legion/environment
+# HonkLegion/Environment
 Easy class for getting ENV values with casting and default value fallback. Great for frameworks like Nette.
 
 [![Coverage Status](https://img.shields.io/coveralls/github/bckp/environment/master)](https://coveralls.io/github/bckp/environment?branch=master)
