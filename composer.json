@@ -1,5 +1,5 @@
 {
-    "name": "honk-legion/environment",
+    "name": "honklegion/environment",
     "description": "Simple class for getting environment in proper type with fallback",
     "type": "library",
     "require-dev": {
@@ -17,12 +17,12 @@
     "authors": [
         {
             "name": "Radovan Kepak",
-            "email": "radovan@kepakovi.cz"
+            "email": "radovan@kepak.dev"
         }
     ],
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0-dev"
+            "dev-main": "2.0-dev"
         }
     },
     "scripts": {
